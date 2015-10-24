@@ -1,0 +1,26 @@
+---
+title: "Predict Miles Per Gallon"
+author: "Santhosh"
+date: "October 24, 2015"
+output: html_document
+---
+
+This app is created to predict miles per gallon based on weight,trasmission and qsec (1/4 mile time).
+
+###Steps to use this app
+
+* Select Trasmission (Manual vs Automatic)
+* Select the weight (lb/1000 units)
+* Select the Qsec (time for quarter mile)
+* Click Submit
+* View the Selected Values and Predicted values in the main pane.
+
+mtcars dataset is used to build a linear regression model using miles per gallon,weight,trasmission and qsec.The description of the data set is below.There are others features that are available in the data set but after more analysis the ablove 3 variable provide good prediction power of the miles per gallon.
+
+### Description
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+
+```{r}
+summary(mtcars)
+```
+

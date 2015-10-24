@@ -1,0 +1,160 @@
+#downloadAd {
+	position: absolute;
+	width: 308px;
+	height: 272px;
+	left: -332px;
+	top: 30%;
+	background-color: #F4F4F4;
+	padding: 5px 2px 5px 7px;
+	border: 2px solid #DDD;
+}
+
+#downloadAd a {
+	display: block;
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 6px;
+	padding-left: 4px;
+	text-decoration: none;
+	color: #333;
+}
+
+#downloadAd a:hover {
+	text-decoration: underline;
+}
+
+#downloadAdX {
+	position: absolute;
+	top: -16px;
+	right: -10px;
+}
+
+#downloadAdX img {
+	border: none;
+}
+
+/* Begin Try-Search CSS */
+#tryBoxBorder {
+    position: absolute;
+	left: -9999px;
+	top: -9999px;
+    width: 580px;
+    height: 170px;
+    background-color: #000;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+#tryContent {
+    position: absolute;
+	left: -9999px;
+	top: -9999px;
+    margin: 15px 0 0 15px;
+    width: 550px;
+    height: 140px;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity:0.9;
+    opacity: 0.9;
+}
+#searchWally {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 15px;
+    background: transparent url('../images/sprites/dl-search.png') no-repeat scroll 0 -140px;
+    padding: 100px 0 0 105px;
+}
+#topTryContentSection {
+    background-color: #829fc3;
+    height: 115px;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0;
+}
+#topTryContentSection a:hover {
+    text-decoration: none;
+}
+#tryContentText {
+    height: 25px;
+    font-size: 17px;
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 1px 1px #555;
+    font-weight: bold;
+}
+#tryButton {
+    position: absolute;
+    display: block;
+    top: 45px;
+    left: 140px;
+    height: 50px;
+    width: 215px;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #7CA84F 0%, #679638 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #7CA84F 0%, #679638 100%);
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #7CA84F 0%, #679638 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7CA84F), color-stop(1, #679638));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #7CA84F 0%, #679638 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #7CA84F 0%, #679638 100%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #557c30;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(161, 193, 128, 100);
+    box-shadow: inset 1px 1px 1px rgba(161, 193, 128, 100);
+    cursor: pointer;
+}
+#tryText {
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px #97d79f;
+}
+#poweredByText {
+    position: absolute;
+    right: 55px;
+    top : 50px;
+    color: white;
+    font-size: 12px;
+}
+#poweredByImage {
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    background: transparent url('../images/sprites/dl-search.png') no-repeat scroll 0 -260px;
+    padding: 20px 0 0 175px;
+}
+#noThanksLink span {
+    background: transparent url('../images/sprites/dl-search.png') no-repeat scroll 0 -112px;
+    padding-left: 15px;
+}
+#noThanksLink {
+    position: absolute;
+    display: block;
+    margin-top: 86px;
+    margin-left: 450px;
+}
+#noThanksLink:hover span {
+    text-decoration: underline;
+}
+#bottomTryContentSection {
+    height: 25px;
+    background-color: #7c95b7;
+    -webkit-border-radius: 0 0 12px 12px;
+    -moz-border-radius: 0 0 12px 12px;
+    border-radius: 0 0 12px 12px;
+}
+/* End Try-Search CSS */
